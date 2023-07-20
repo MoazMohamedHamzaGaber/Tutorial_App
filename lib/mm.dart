@@ -2,9 +2,15 @@ import 'package:flutter/material.dart';
 
 class MMM extends StatelessWidget {
   const MMM({Key? key}) : super(key: key);
-//MOazzzzzzzzzzzzzzzzz
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(),
+      body: Column(
+        children: const [
+          Text('data'),
+        ],
+      ),
+    );
   }
 }
