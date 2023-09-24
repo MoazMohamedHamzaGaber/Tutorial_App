@@ -12,21 +12,21 @@ class HomeViewBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        titleSpacing: -10,
-        leading: const Icon(
-          Icons.location_on,
-          color: Colors.blue,
-          size: 30,
-        ),
-        title: const Text('Tokyo,Japan'),
-        actions: [
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.notifications),
-          )
-        ],
-      ),
+      // appBar: AppBar(
+      //   titleSpacing: -10,
+      //   leading: const Icon(
+      //     Icons.location_on,
+      //     color: Colors.blue,
+      //     size: 30,
+      //   ),
+      //   title: const Text('Tokyo,Japan'),
+      //   actions: [
+      //     IconButton(
+      //       onPressed: () {},
+      //       icon: const Icon(Icons.notifications),
+      //     )
+      //   ],
+      // ),
       body: SingleChildScrollView(
         physics: const BouncingScrollPhysics(),
         child: Padding(
